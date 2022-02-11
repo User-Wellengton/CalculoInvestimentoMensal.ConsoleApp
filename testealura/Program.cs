@@ -7,9 +7,11 @@ namespace CalculoInvestimentoMensal
         static void Main(string[] args)
         {
 
-            double valorInvestido = 1000;
+            double valorInvestido ;
             int totalMeses;
-            
+
+            Console.WriteLine("Digite o valor do investimento:?");
+            valorInvestido = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Quantos meses de investimento você quer saber ?");
             totalMeses = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +22,7 @@ namespace CalculoInvestimentoMensal
                
                 valorInvestido = valorInvestido + valorInvestido * 0.0036;
                 Console.WriteLine("Após " + cont + " , você tera : R$ " + valorInvestido);
-                  
+                
                 }
 
 
