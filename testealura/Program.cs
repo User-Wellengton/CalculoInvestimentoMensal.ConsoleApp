@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace testealura
+namespace CalculoInvestimentoMensal
 {
     internal class Program
     {
